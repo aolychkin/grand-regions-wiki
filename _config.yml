@@ -1,0 +1,9 @@
+# GitHub Pages config (Jekyll). Для публикации docs/ как https://<user>.github.io/<repo>/
+title: Grand Regions — Документация
+description: Политическая онлайн-стратегия в Telegram Mini App
+theme: jekyll-theme-cayman
+markdown: kramdown
+include:
+  - README.md
+exclude:
+  - "*.draft.md"
