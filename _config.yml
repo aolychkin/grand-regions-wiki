@@ -1,9 +1,55 @@
-# GitHub Pages config (Jekyll). Для публикации docs/ как https://<user>.github.io/<repo>/
-title: Grand Regions — Документация
+# Just-the-Docs Jekyll-тема для документации Grand Regions
+# Документация: https://just-the-docs.com/
+
+title: Grand Regions
 description: Политическая онлайн-стратегия в Telegram Mini App
-theme: jekyll-theme-cayman
+remote_theme: just-the-docs/just-the-docs
 markdown: kramdown
-include:
-  - README.md
+kramdown:
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s\-/]+/
+  rel_url: true
+  button: false
+
+# UI
+color_scheme: dark
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "↑ Наверх"
+
+# Header links
+aux_links:
+  "GitHub":
+    - "https://github.com/aolychkin/grand-regions-wiki"
+aux_links_new_tab: true
+
+# Footer
+footer_content: '© 2026 Grand Regions. Контент под <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Mirror <a href="https://github.com/aolychkin/grand-regions-wiki">grand-regions-wiki</a>.'
+
+# Callouts
+callouts_level: quiet
+callouts:
+  note:
+    title: Заметка
+    color: blue
+  warning:
+    title: Внимание
+    color: yellow
+  tip:
+    title: Совет
+    color: green
+
 exclude:
   - "*.draft.md"
