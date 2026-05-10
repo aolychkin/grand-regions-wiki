@@ -89,7 +89,7 @@ headOfCity(city) =
 
 > На старте никаких государств не существует. Country=РФ есть в БД с пустым `PresidentPlayerID`. Все регионы — нейтральные (`Region.RulingCountryID=NULL`).
 
-Государство **рождается** когда первая партия захватывает первый нейтральный регион через войну с NPC-армией. См. [Война и захват](war.md) и [Пути к власти](../player-guide/paths-to-power.md).
+Государство **рождается** когда первая партия захватывает первый нейтральный регион через войну с NPC-армией. См. [Пути к власти](../player-guide/paths-to-power.md).
 
 ## Текущее состояние мира (тестовый сценарий)
 
@@ -109,7 +109,8 @@ headOfCity(city) =
 
 ## See also
 
-- [Политика и партии](politics.md)
 - [Стройка и территории](construction.md)
-- [Война и захват](war.md)
-- Внутренний GDD: `brain/project/game-design/gdd/01-world-hierarchy.md`
+- [Ресурсы и региональные резервы](resources-and-reserves.md)
+- [Налоговая система](taxes.md)
+- [Пути к власти](../player-guide/paths-to-power.md)
+- Внутренний GDD: `gdd/01-world-hierarchy.md`

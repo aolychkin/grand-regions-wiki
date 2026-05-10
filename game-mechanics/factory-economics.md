@@ -31,9 +31,10 @@ nav_order: 3
 └── Brewery (private, Иван) — 150 ₽/энергия + 10% share. Свободно: 0/3 (полная).
 ```
 
-Рядом с каждым показывается **выгода для тебя** с учётом skill:
-- При Knowledge=5: «200 ₽ × 1.5 (твой коэф.) = 300 ₽/энергия».
-- При Knowledge=1: «100 ₽ × 1.0 = 100 ₽/энергия».
+Рядом с каждым показывается **выгода для тебя** с учётом skill (Knowledge → +1% output за пункт, см. [Навыки и прокачка](../player-guide/skills-and-leveling.md)):
+- При Knowledge=10 (старт): «200 ₽ × 1.10 = 220 ₽/энергия».
+- При Knowledge=50: «200 ₽ × 1.50 = 300 ₽/энергия».
+- При Knowledge=100: «200 ₽ × 2.00 = 400 ₽/энергия».
 
 ## Условия найма (wage modes)
 
@@ -82,16 +83,21 @@ share_of_output_pct = 30  // 30%
 Только **реальный Player** даёт XP зданию (не NPS):
 
 ```
-xp_per_energy = 1.0 × (1 + Knowledge/10) × (1 + Endurance/20)
+xp_per_energy = 1.0 × (1 + Knowledge / 100)
 ```
 
-| Игрок | Skill | XP за 1 энергию |
+> 💡 **Стартовое значение skills = 10/10/10** (см. [Навыки и прокачка](../player-guide/skills-and-leveling.md)). Knowledge → +1% output за пункт; Endurance → -0.5% energy cost за пункт; Strength — только для войн.
+
+| Игрок | Knowledge | XP за 1 энергию |
 |---|---|---|
-| Базовый | Knowledge=1, Endurance=1 | ~1.16 |
-| Средний | Knowledge=5, Endurance=3 | ~1.80 |
-| Прокачанный | Knowledge=10, Endurance=10 | ~3.00 |
+| Стартовый | 10 | 1.10 |
+| Средний | 30 | 1.30 |
+| Опытный | 50 | 1.50 |
+| Прокачанный | 100 | 2.00 |
 
 > Это даёт владельцу **смысл нанимать прокачанных рабочих**, не только дешёвых NPS.
+
+**Дополнительно:** игрок с высоким `Endurance` тратит меньше энергии на действие — может работать дольше с тем же запасом.
 
 ### Как тратится XP
 
@@ -204,5 +210,7 @@ xp_per_energy = 1.0 × (1 + Knowledge/10) × (1 + Endurance/20)
 
 - [С чего начать](../player-guide/getting-started.md)
 - [Игровой цикл](../player-guide/daily-loop.md)
+- [Навыки и прокачка](../player-guide/skills-and-leveling.md)
 - [Стройка и территории](construction.md)
+- [Ресурсы и региональные резервы](resources-and-reserves.md)
 - [Налоги](taxes.md)

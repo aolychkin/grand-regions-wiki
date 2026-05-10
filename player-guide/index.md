@@ -14,6 +14,7 @@ permalink: /player-guide/
 - [С чего начать](getting-started.md) — первые 30 минут в игре.
 - [Игровой цикл — что делать каждый день](daily-loop.md) ⭐ полный путь от регистрации до Президента.
 - [Город и территории](city-and-territory.md) — как работает 1 км²-сетка и аукционы.
+- [Навыки и прокачка](skills-and-leveling.md) — Knowledge / Strength / Endurance, 4 источника прокачки.
 - [Налоги и бюджеты](taxes.md) — кто и кому платит.
 - [Переводы между игроками + прозрачность политиков](transfers-and-transparency.md) — anti-corruption механика.
 - [Игровое время и срок годности](time-and-spoilage.md) — тики, дни, порча на складе.

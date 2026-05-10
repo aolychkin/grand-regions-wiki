@@ -78,5 +78,6 @@ nav_order: 3
 ## See also
 
 - [Стройка и территории — game mechanics](../game-mechanics/construction.md)
+- [Ресурсы и региональные резервы](../game-mechanics/resources-and-reserves.md) — какие сырьевые лимиты есть в регионе
 - [Налоги](taxes.md)
 - [Пути к власти](paths-to-power.md)
