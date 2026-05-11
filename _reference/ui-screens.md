@@ -1,7 +1,7 @@
 ---
 title: Разделы UI
-parent: Справочник
-nav_order: 3
+layout: post
+order: 4
 ---
 
 # Разделы Telegram Mini App
@@ -175,5 +175,5 @@ Telegram шлёт пуши:
 
 ## Связанные страницы
 
-- [С чего начать](../player-guide/getting-started.md) — пошагово для новичка.
-- [Игровой цикл](../player-guide/daily-loop.md) — что делать каждый день в каком разделе.
+- [С чего начать](/player-guide/getting-started/) — пошагово для новичка.
+- [Игровой цикл](/player-guide/daily-loop/) — что делать каждый день в каком разделе.

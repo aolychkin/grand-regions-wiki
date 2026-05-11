@@ -1,7 +1,7 @@
 ---
 title: Игровой цикл
-parent: Гайды для игроков
-nav_order: 2
+layout: post
+order: 3
 ---
 
 # От жителя до Президента — игровой цикл
@@ -169,7 +169,7 @@ nav_order: 2
 | **«Постройки»** → «Построить» | Указываешь Territory + начинаешь стройку |
 
 **Что нужно для стройки:**
-- 5 видов ресурсов (см. [Construction](../game-mechanics/construction.md)).
+- 5 видов ресурсов (см. [Construction](/game-mechanics/construction/)).
 - Бригада (строители + архитекторы) — нанимаются автоматически из NPS.
 - Деньги на стройку (~1-7 млн ₽ для типичного завода).
 - Срок (10-30 минут реального времени = 1-3 игровых месяца).
@@ -412,4 +412,4 @@ nav_order: 2
 - [Город и территории](city-and-territory.md)
 - [Налоги](taxes.md)
 - [Пути к власти](paths-to-power.md)
-- [Иерархия мира](../game-mechanics/world-hierarchy.md)
+- [Иерархия мира](/game-mechanics/world-hierarchy/)

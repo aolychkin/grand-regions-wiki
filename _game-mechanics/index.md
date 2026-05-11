@@ -1,7 +1,7 @@
 ---
 title: Игровые механики
-nav_order: 3
-has_children: true
+layout: post
+order: 1
 permalink: /game-mechanics/
 ---
 
@@ -19,4 +19,4 @@ permalink: /game-mechanics/
 
 ## Связанные документы
 
-- [Гайды для игроков](../player-guide/) — практические объяснения тех же тем.
+- [Гайды для игроков](/player-guide/) — практические объяснения тех же тем.

@@ -1,7 +1,7 @@
 ---
 title: Гайды для игроков
-nav_order: 2
-has_children: true
+layout: post
+order: 1
 permalink: /player-guide/
 ---
 

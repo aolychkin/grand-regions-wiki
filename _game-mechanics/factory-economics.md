@@ -1,7 +1,7 @@
 ---
 title: Экономика заводов
-parent: Игровые механики
-nav_order: 3
+layout: post
+order: 4
 ---
 
 # Экономика заводов — рынок труда и прокачка
@@ -31,7 +31,7 @@ nav_order: 3
 └── Brewery (private, Иван) — 150 ₽/энергия + 10% share. Свободно: 0/3 (полная).
 ```
 
-Рядом с каждым показывается **выгода для тебя** с учётом skill (Knowledge → +1% output за пункт, см. [Навыки и прокачка](../player-guide/skills-and-leveling.md)):
+Рядом с каждым показывается **выгода для тебя** с учётом skill (Knowledge → +1% output за пункт, см. [Навыки и прокачка](/player-guide/skills-and-leveling/)):
 - При Knowledge=10 (старт): «200 ₽ × 1.10 = 220 ₽/энергия».
 - При Knowledge=50: «200 ₽ × 1.50 = 300 ₽/энергия».
 - При Knowledge=100: «200 ₽ × 2.00 = 400 ₽/энергия».
@@ -86,7 +86,7 @@ share_of_output_pct = 30  // 30%
 xp_per_energy = 1.0 × (1 + Knowledge / 100)
 ```
 
-> 💡 **Стартовое значение skills = 10/10/10** (см. [Навыки и прокачка](../player-guide/skills-and-leveling.md)). Knowledge → +1% output за пункт; Endurance → -0.5% energy cost за пункт; Strength — только для войн.
+> 💡 **Стартовое значение skills = 10/10/10** (см. [Навыки и прокачка](/player-guide/skills-and-leveling/)). Knowledge → +1% output за пункт; Endurance → -0.5% energy cost за пункт; Strength — только для войн.
 
 | Игрок | Knowledge | XP за 1 энергию |
 |---|---|---|
@@ -208,9 +208,9 @@ xp_per_energy = 1.0 × (1 + Knowledge / 100)
 
 ## See also
 
-- [С чего начать](../player-guide/getting-started.md)
-- [Игровой цикл](../player-guide/daily-loop.md)
-- [Навыки и прокачка](../player-guide/skills-and-leveling.md)
+- [С чего начать](/player-guide/getting-started/)
+- [Игровой цикл](/player-guide/daily-loop/)
+- [Навыки и прокачка](/player-guide/skills-and-leveling/)
 - [Стройка и территории](construction.md)
 - [Ресурсы и региональные резервы](resources-and-reserves.md)
 - [Налоги](taxes.md)

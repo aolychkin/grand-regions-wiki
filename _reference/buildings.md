@@ -1,7 +1,7 @@
 ---
 title: Каталог зданий
-parent: Справочник
-nav_order: 2
+layout: post
+order: 3
 ---
 
 # Каталог зданий
@@ -82,7 +82,7 @@ nav_order: 2
 | Бетон (`concrete`) | м³ | Бетонный завод (из Камень + Вода) |
 | Каучук (`rubber`) | кг | Каучуковый завод (сырьё с лимитом) |
 
-Подробнее: [Стройка и территории](../game-mechanics/construction.md).
+Подробнее: [Стройка и территории](/game-mechanics/construction/).
 
 ## Кадры на стройку и эксплуатацию
 
@@ -113,7 +113,7 @@ nav_order: 2
 
 ## Связанные страницы
 
-- [Стройка и территории](../game-mechanics/construction.md) — workflow покупки Territory и стройки.
-- [Экономика заводов](../game-mechanics/factory-economics.md) — рынок труда, прокачка завода через XP.
-- [Способы заработать](../player-guide/income-sources.md) — какие заводы выгоднее на старте.
-- [Ресурсы и региональные резервы](../game-mechanics/resources-and-reserves.md) — региональные лимиты сырья.
+- [Стройка и территории](/game-mechanics/construction/) — workflow покупки Territory и стройки.
+- [Экономика заводов](/game-mechanics/factory-economics/) — рынок труда, прокачка завода через XP.
+- [Способы заработать](/player-guide/income-sources/) — какие заводы выгоднее на старте.
+- [Ресурсы и региональные резервы](/game-mechanics/resources-and-reserves/) — региональные лимиты сырья.

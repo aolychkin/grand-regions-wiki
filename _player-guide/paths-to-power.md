@@ -1,7 +1,7 @@
 ---
 title: Пути к власти
-parent: Гайды для игроков
-nav_order: 9
+layout: post
+order: 10
 ---
 
 # Пути к власти
@@ -124,7 +124,7 @@ nav_order: 9
 
 ## See also
 
-- [Иерархия мира](../game-mechanics/world-hierarchy.md)
-- [Налоговая система](../game-mechanics/taxes.md)
-- [Ресурсы и региональные резервы](../game-mechanics/resources-and-reserves.md) — мотивация захвата (богатые сырьём регионы)
+- [Иерархия мира](/game-mechanics/world-hierarchy/)
+- [Налоговая система](/game-mechanics/taxes/)
+- [Ресурсы и региональные резервы](/game-mechanics/resources-and-reserves/) — мотивация захвата (богатые сырьём регионы)
 - Внутренний GDD: `gdd/02-roles-and-progression.md`, `gdd/09-military-war.md`

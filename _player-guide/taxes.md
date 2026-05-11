@@ -1,7 +1,7 @@
 ---
-title: Налоги — что и куда платишь
-parent: Гайды для игроков
-nav_order: 6
+title: Налоги, что и куда платишь
+layout: post
+order: 7
 ---
 
 # Налоги — что и куда платишь
@@ -97,6 +97,6 @@ nav_order: 6
 
 ## See also
 
-- [Налоги — game mechanics](../game-mechanics/taxes.md)
+- [Налоги — game mechanics](/game-mechanics/taxes/)
 - [Город и территории](city-and-territory.md)
 - [Пути к власти](paths-to-power.md)

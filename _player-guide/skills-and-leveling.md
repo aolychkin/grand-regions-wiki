@@ -1,7 +1,7 @@
 ---
 title: Навыки и прокачка
-parent: Гайды для игроков
-nav_order: 4
+layout: post
+order: 5
 ---
 
 # Навыки и прокачка
@@ -152,5 +152,5 @@ Building тип `school` / `academy` (спека 11.5). Платишь курс 
 
 - [С чего начать](getting-started.md)
 - [Игровой цикл](daily-loop.md) — где в твоём дне прокачка
-- [Экономика заводов](../game-mechanics/factory-economics.md) — как навыки влияют на ЗП
+- [Экономика заводов](/game-mechanics/factory-economics/) — как навыки влияют на ЗП
 - Внутренний GDD: `gdd/02-roles-and-progression.md → Множители игрока`

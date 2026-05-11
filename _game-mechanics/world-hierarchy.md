@@ -1,7 +1,7 @@
 ---
 title: Иерархия мира
-parent: Игровые механики
-nav_order: 1
+layout: post
+order: 2
 ---
 
 # Иерархия мира
@@ -89,7 +89,7 @@ headOfCity(city) =
 
 > На старте никаких государств не существует. Country=РФ есть в БД с пустым `PresidentPlayerID`. Все регионы — нейтральные (`Region.RulingCountryID=NULL`).
 
-Государство **рождается** когда первая партия захватывает первый нейтральный регион через войну с NPC-армией. См. [Пути к власти](../player-guide/paths-to-power.md).
+Государство **рождается** когда первая партия захватывает первый нейтральный регион через войну с NPC-армией. См. [Пути к власти](/player-guide/paths-to-power/).
 
 ## Текущее состояние мира (тестовый сценарий)
 
@@ -112,5 +112,5 @@ headOfCity(city) =
 - [Стройка и территории](construction.md)
 - [Ресурсы и региональные резервы](resources-and-reserves.md)
 - [Налоговая система](taxes.md)
-- [Пути к власти](../player-guide/paths-to-power.md)
+- [Пути к власти](/player-guide/paths-to-power/)
 - Внутренний GDD: `gdd/01-world-hierarchy.md`

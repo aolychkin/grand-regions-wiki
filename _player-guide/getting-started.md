@@ -1,7 +1,7 @@
 ---
 title: С чего начать
-parent: Гайды для игроков
-nav_order: 1
+layout: post
+order: 2
 ---
 
 # С чего начать

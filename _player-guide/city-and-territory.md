@@ -1,7 +1,7 @@
 ---
 title: Город и территории
-parent: Гайды для игроков
-nav_order: 5
+layout: post
+order: 6
 ---
 
 # Город и территории
@@ -37,7 +37,7 @@ nav_order: 5
 - 🥖 Пищевая (Пекарня, Молокозавод, ...)
 - ⚡️ Энергия (placeholder в MVP)
 
-См. [Конструкция](../game-mechanics/construction.md) для полного списка.
+См. [Конструкция](/game-mechanics/construction/) для полного списка.
 
 ## Что платит игрок-владелец
 
@@ -77,7 +77,7 @@ nav_order: 5
 
 ## See also
 
-- [Стройка и территории — game mechanics](../game-mechanics/construction.md)
-- [Ресурсы и региональные резервы](../game-mechanics/resources-and-reserves.md) — какие сырьевые лимиты есть в регионе
+- [Стройка и территории — game mechanics](/game-mechanics/construction/)
+- [Ресурсы и региональные резервы](/game-mechanics/resources-and-reserves/) — какие сырьевые лимиты есть в регионе
 - [Налоги](taxes.md)
 - [Пути к власти](paths-to-power.md)

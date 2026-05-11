@@ -1,7 +1,7 @@
 ---
 title: Налоговая система
-parent: Игровые механики
-nav_order: 4
+layout: post
+order: 5
 ---
 
 # Налоговая система
@@ -101,5 +101,5 @@ nav_order: 4
 
 - [Стройка и территории](construction.md)
 - [Ресурсы и региональные резервы](resources-and-reserves.md)
-- [Переводы и прозрачность политиков](../player-guide/transfers-and-transparency.md)
+- [Переводы и прозрачность политиков](/player-guide/transfers-and-transparency/)
 - Внутренний GDD: `gdd/08-government-politics.md → Налоги`

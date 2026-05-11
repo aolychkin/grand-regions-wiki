@@ -1,55 +1,85 @@
-# Just-the-Docs Jekyll-тема для документации Grand Regions
-# Документация: https://just-the-docs.com/
+# Jekyll-GitBook тема для документации Grand Regions
+# Документация: https://github.com/sighingnow/jekyll-gitbook
 
 title: Grand Regions
-description: Политическая онлайн-стратегия в Telegram Mini App
-remote_theme: just-the-docs/just-the-docs@v0.7.0
+longtitle: Grand Regions — публичная вики
+description: Политическая онлайн-стратегия в Telegram Mini App. Гайды, механики, справочник.
+author: Grand Regions Team
+
+url: https://wiki.grand-regions.com
+baseurl: ""
+
+# Запинено на конкретный SHA — правило .claude/rules/sync-workflows.md.
+remote_theme: sighingnow/jekyll-gitbook@a7d8769d6f4f4ce58fa07dfe6bcfa6f86b9bed52
+
+# Markdown render engine.
 markdown: kramdown
 kramdown:
+  auto_ids: true
+  input: GFM
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
   syntax_highlighter: rouge
+
+syntax_highlighter_style: colorful
+
+# Контент TOC (правый sidebar по странице).
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
+
+# Ширина основной колонки.
+page_width: 920px
 
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-relative-links
+  - jekyll-readme-index
 
-# Search
-search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
-  tokenizer_separator: /[\s\-/]+/
-  rel_url: true
-  button: false
+# Конвертация [text](file.md) → /file/ URL для коллекций тоже.
+relative_links:
+  enabled: true
+  collections: true
 
-# UI
-color_scheme: dark
-heading_anchors: true
-back_to_top: true
-back_to_top_text: "↑ Наверх"
+# README.md в корне docs/ становится index сайта.
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: true
 
-# Header links
+# Коллекции = группы страниц в левом sidebar (по ordered_collections).
+collections:
+  player-guide:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/
+  game-mechanics:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/
+  reference:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/
+
+ordered_collections:
+  - player-guide
+  - game-mechanics
+  - reference
+
+# Внешние ссылки в шапке.
 aux_links:
-  "GitHub":
-    - "https://github.com/aolychkin/grand-regions-wiki"
-aux_links_new_tab: true
+  GitHub:
+    - https://github.com/aolychkin/grand-regions-wiki
 
-# Footer
-footer_content: '© 2026 Grand Regions. Контент под <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Mirror <a href="https://github.com/aolychkin/grand-regions-wiki">grand-regions-wiki</a>.'
-
-# Callouts
-callouts_level: quiet
-callouts:
-  note:
-    title: Заметка
-    color: blue
-  warning:
-    title: Внимание
-    color: yellow
-  tip:
-    title: Совет
-    color: green
+# Permalinks для постов (не используется, но Jekyll требует).
+permalink: /:categories/:title/
 
 exclude:
   - "*.draft.md"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

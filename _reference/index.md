@@ -1,7 +1,7 @@
 ---
 title: Справочник
-nav_order: 4
-has_children: true
+layout: post
+order: 1
 permalink: /reference/
 ---
 
@@ -23,6 +23,6 @@ permalink: /reference/
 
 ## Связанные гайды
 
-- [С чего начать](../player-guide/getting-started.md) — основы для новичка.
-- [Способы заработать](../player-guide/income-sources.md) — как зарабатывать.
-- [Игровые механики](../game-mechanics/) — детальные объяснения как всё устроено.
+- [С чего начать](/player-guide/getting-started/) — основы для новичка.
+- [Способы заработать](/player-guide/income-sources/) — как зарабатывать.
+- [Игровые механики](/game-mechanics/) — детальные объяснения как всё устроено.

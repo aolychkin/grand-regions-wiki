@@ -1,7 +1,7 @@
 ---
 title: Игровое время и срок годности
-parent: Гайды для игроков
-nav_order: 8
+layout: post
+order: 9
 ---
 
 # Игровое время и срок годности
@@ -131,5 +131,5 @@ nav_order: 8
 ## See also
 
 - [Игровой цикл — daily loop](daily-loop.md)
-- [Экономика заводов](../game-mechanics/factory-economics.md)
+- [Экономика заводов](/game-mechanics/factory-economics/)
 - [Налоги](taxes.md)
