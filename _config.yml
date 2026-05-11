@@ -10,7 +10,7 @@ url: https://wiki.grand-regions.com
 baseurl: ""
 
 # Запинено на конкретный SHA — правило .claude/rules/sync-workflows.md.
-remote_theme: sighingnow/jekyll-gitbook@a7d8769d6f4f4ce58fa07dfe6bcfa6f86b9bed52
+remote_theme: sighingnow/jekyll-gitbook@a7d876936fe650c46eaf9eca92dc7afe0f1e1f17
 
 # Markdown render engine.
 markdown: kramdown
