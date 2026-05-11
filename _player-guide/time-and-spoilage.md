@@ -128,8 +128,8 @@ order: 9
 
 Эти уведомления настраиваются в **«Профиль»** → Уведомления.
 
-## See also
+## Связанные страницы
 
-- [Игровой цикл: daily loop](daily-loop.md)
+- [Игровой цикл](daily-loop.md)
 - [Экономика заводов](/game-mechanics/factory-economics/)
 - [Налоги](taxes.md)
