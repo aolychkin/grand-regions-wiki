@@ -1,10 +1,8 @@
 ---
-title: Главная
+title: Grand Regions
 layout: home
 permalink: /
 ---
-
-# Grand Regions
 
 **Политическая онлайн-стратегия в Telegram Mini App.**
 

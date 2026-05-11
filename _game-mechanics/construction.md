@@ -4,8 +4,6 @@ layout: post
 order: 3
 ---
 
-# Стройка и территории
-
 > Status: 🟡 концепт + частичная реализация. Building реализован; Territory + аукцион, POST-MVP.
 
 ## Что такое Territory
