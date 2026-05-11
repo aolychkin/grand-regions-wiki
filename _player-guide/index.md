@@ -11,19 +11,19 @@ permalink: /player-guide/
 
 ## Для новичка (по порядку)
 
-1. **[С чего начать](getting-started.md)** — что за игра, первые 30 минут.
+1. **[С чего начать](getting-started.md)**: что за игра, первые 30 минут.
 2. **[Игровой цикл](daily-loop.md)** ⭐ что делать каждый день, по этапам.
-3. **[Способы заработать](income-sources.md)** — все источники дохода, сравнение.
-4. **[Навыки и прокачка](skills-and-leveling.md)** — Knowledge / Strength / Endurance.
+3. **[Способы заработать](income-sources.md)**: все источники дохода, сравнение.
+4. **[Навыки и прокачка](skills-and-leveling.md)**: Knowledge / Strength / Endurance.
 
 ## Дальше по интересам
 
-- [Город и территории](city-and-territory.md) — как купить лот 1 км² и построить.
-- [Налоги и бюджеты](taxes.md) — кто и кому платит.
-- [Переводы между игроками + прозрачность политиков](transfers-and-transparency.md) — переводы денег, anti-corruption.
-- [Игровое время и срок годности](time-and-spoilage.md) — как работает время в игре, порча на складе.
-- [Пути к власти](paths-to-power.md) — выборы, захват, выкуп независимости.
+- [Город и территории](city-and-territory.md): как купить лот 1 км² и построить.
+- [Налоги и бюджеты](taxes.md): кто и кому платит.
+- [Переводы между игроками + прозрачность политиков](transfers-and-transparency.md): переводы денег, anti-corruption.
+- [Игровое время и срок годности](time-and-spoilage.md): как работает время в игре, порча на складе.
+- [Пути к власти](paths-to-power.md): выборы, захват, выкуп независимости.
 
 ## Полезное
 
-Если что-то сломано или непонятно — [issues в GitHub](https://github.com/aolychkin/grand-regions-wiki/issues).
+Если что-то сломано или непонятно, [issues в GitHub](https://github.com/aolychkin/grand-regions-wiki/issues).
