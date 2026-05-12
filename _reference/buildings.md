@@ -112,6 +112,6 @@ order: 3
 ## Связанные страницы
 
 - [Стройка и территории](/game-mechanics/construction/): workflow покупки Territory и стройки.
-- [Экономика заводов](/game-mechanics/factory-economics/): рынок труда, прокачка завода через XP.
+- [Экономика заводов](/game-mechanics/factory-economics/): рынок труда, прокачка завода через опыт.
 - [Способы заработать](/player-guide/income-sources/): какие заводы выгоднее на старте.
 - [Ресурсы и региональные резервы](/game-mechanics/resources-and-reserves/): региональные лимиты сырья.

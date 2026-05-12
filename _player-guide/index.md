@@ -12,7 +12,7 @@ permalink: /player-guide/
 1. **[С чего начать](getting-started.md)**: что за игра, первые 30 минут.
 2. **[Игровой цикл](daily-loop.md)** ⭐ что делать каждый день, по этапам.
 3. **[Способы заработать](income-sources.md)**: все источники дохода, сравнение.
-4. **[Навыки и прокачка](skills-and-leveling.md)**: Knowledge / Strength / Endurance.
+4. **[Навыки и прокачка](skills-and-leveling.md)**: Знания / Сила / Выносливость.
 
 ## Дальше по интересам
 
